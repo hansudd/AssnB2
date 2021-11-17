@@ -12,9 +12,9 @@
 #' that allows the user to get a quick snapshot of the data and in particular their linear relationship
 #' (if any).
 #'
-#' @params data needs to be a data frame (for e.g., a tibble)
-#' @params x This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
-#' @params y This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
+#' @params `data` needs to be a data frame (for e.g., a tibble)
+#' @params `x` This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
+#' @params `y` This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
 #'
 #' @return If both x and y inputs are numeric and data is a data frame or tibble,
 #'            then the function returns a list object.
@@ -26,6 +26,7 @@
 #' @examples
 #' data_snapshot(mtcars, hp, mpg)
 #'
+#' @export
 
 data_snapshot <- function(data, x, y) {
 
