@@ -16,13 +16,8 @@
 #' @param `x` This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
 #' @param `y` This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
 #'
-#' @return If both x and y inputs are numeric and data is a data frame or tibble,
-#'            then the function returns a list object.
-#'            The list contains 4 objects:
-#'            - summary table for y numeric variable (max, min, mean, median)
-#'            - summary table for x numeric variable (max, min, mean, median)
-#'            - scatter plot for x and y
-#'            - adjusted r squared coefficient to indicate linear relationship of x vs y variables
+#' @return This function returns summary tables for numeric variables, a scatterplot and adjusted R squared value
+#'
 #' @examples
 #' data_snapshot(mtcars, hp, mpg)
 #' data_snapshot(gapminder, lifeExp, gdpPercap)
@@ -30,7 +25,7 @@
 #' @importFrom dyplr summarise
 #' @importFrom ggplot2 ggplot aes geom_point labs theme_bw
 #' @importFrom broom glance
-#' @importFrom gapminder
+#' @importFrom gapminder gapminder
 #'
 #' @export
 
