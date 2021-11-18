@@ -1,6 +1,6 @@
 Package: B2package
 Title: Getting a snapshot of numeric variables
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person(given = "Hanwei",
            family = "Sudderuddin",
@@ -17,3 +17,8 @@ RoxygenNote: 7.1.2
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Imports:
+    broom,
+    dplyr,
+    gapminder,
+    ggplot2

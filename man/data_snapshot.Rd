@@ -14,13 +14,7 @@ data_snapshot(data, x, y)
 \item{`y`}{This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values}
 }
 \value{
-If both x and y inputs are numeric and data is a data frame or tibble,
-then the function returns a list object.
-The list contains 4 objects:
-- summary table for y numeric variable (max, min, mean, median)
-- summary table for x numeric variable (max, min, mean, median)
-- scatter plot for x and y
-- adjusted r squared coefficient to indicate linear relationship of x vs y variables
+This function returns summary tables for numeric variables, a scatterplot and adjusted R squared value
 }
 \description{
 Function provides snapshot of the linear relationship between two numeric variables, as well as some
