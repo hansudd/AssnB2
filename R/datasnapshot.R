@@ -22,12 +22,13 @@
 #' data_snapshot(mtcars, hp, mpg)
 #' data_snapshot(gapminder, lifeExp, gdpPercap)
 #'
+#' @export
+#'
 #' @importFrom dplyr summarise
 #' @importFrom ggplot2 ggplot aes geom_point labs theme_bw
 #' @importFrom broom glance
 #' @importFrom gapminder gapminder
 #'
-#' @export
 
 data_snapshot <- function(data, x, y) {
 
