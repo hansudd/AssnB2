@@ -1,5 +1,5 @@
 test_that("Function returns list of objects", {
-  foo <- data_snapshot(gapminder:gapminder, lifeExp, gdpPercap)
+  foo <- data_snapshot(gapminder::gapminder, lifeExp, gdpPercap)
   expect_is(foo, "list")
 })
 
