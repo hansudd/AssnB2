@@ -1,3 +1,6 @@
+library(gapminder)
+data(gapminder)
+
 test_that("Function returns list of objects", {
   foo <- data_snapshot(gapminder::gapminder, x = lifeExp, y = gdpPercap)
   expect_is(foo, "list")

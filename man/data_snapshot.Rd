@@ -7,7 +7,7 @@
 data_snapshot(data, x, y)
 }
 \arguments{
-\item{`data`}{needs to be a data frame (for e.g., a tibble)}
+\item{data}{needs to be a data frame (for e.g., a tibble)}
 
 \item{`x`}{This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values}
 
@@ -27,6 +27,6 @@ that allows the user to get a quick snapshot of the data and in particular their
 }
 \examples{
 data_snapshot(mtcars, hp, mpg)
-data_snapshot(gapminder, lifeExp, gdpPercap)
+data_snapshot(gapminder::gapminder, lifeExp, gdpPercap)
 
 }
