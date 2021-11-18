@@ -7,9 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This package provides a data snapshot of two numeric variables. It contains a function which returns summary statistics
-for the numeric variables, as well as a scatterplot and the adjusted R squared value to provide a sense of the linear relationship between
-the variables.
+Description: This package provides a data snapshot of two numeric variables. It contains a function which returns summary statistics for the numeric variables, as well as a scatterplot and the adjusted R squared value to provide a sense of the linear relationship between the variables.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8

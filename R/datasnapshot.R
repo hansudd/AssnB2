@@ -25,7 +25,7 @@
 #' @importFrom dyplr summarise
 #' @importFrom ggplot2 ggplot aes geom_point labs theme_bw
 #' @importFrom broom glance
-#' @import gapminder
+#' @importFrom gapminder
 #'
 #' @export
 
