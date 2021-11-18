@@ -20,7 +20,7 @@
 #'
 #' @examples
 #' data_snapshot(mtcars, hp, mpg)
-#' data_snapshot(gapminder, lifeExp, gdpPercap)
+#' data_snapshot(gapminder::gapminder, lifeExp, gdpPercap)
 #'
 #' @export
 #'
