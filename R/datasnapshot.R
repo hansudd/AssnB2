@@ -27,7 +27,8 @@
 #' data_snapshot(mtcars, hp, mpg)
 #'
 #' @importFrom dyplr summarise
-#' @importFrom
+#' @importFrom ggplot2 ggplot aes geom_point labs theme_bw
+#' @importFrom broom glance
 #'
 #' @export
 
