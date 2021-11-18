@@ -26,6 +26,9 @@
 #' @examples
 #' data_snapshot(mtcars, hp, mpg)
 #'
+#' @importFrom dyplr summarise
+#' @importFrom
+#'
 #' @export
 
 data_snapshot <- function(data, x, y) {
