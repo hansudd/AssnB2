@@ -37,7 +37,7 @@ devtools::install_github("hansudd/AssnB2", ref = "0.1.0")
 ```
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to quickly visualize and assess the relationship between two numeric variables:
 
 ```{r example}
 library(B2package)
