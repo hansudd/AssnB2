@@ -8,7 +8,8 @@
 #' @details
 #' When given two numeric variables, x and y, this function produces summary statistics and a plot
 #' that allows the user to get a quick snapshot of the data and in particular their linear relationship
-#' (if any).
+#' (if any). Generally, the adjusted r squared value, a value between 0 and 1, represents the proportion of variance
+#' observed for a dependent variable explained by the independent variable in a linear regression model.
 #'
 #' @param data needs to be a data frame (for e.g., a tibble)
 #' @param x This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
