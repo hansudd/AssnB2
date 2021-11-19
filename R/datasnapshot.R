@@ -1,4 +1,4 @@
-#' @title
+#'
 #' Data Snapshot for Two Numeric Variables
 #'
 #' @description
