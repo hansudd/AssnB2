@@ -7,11 +7,11 @@
 data_snapshot(data, x, y)
 }
 \arguments{
-\item{`data`}{needs to be a data frame (for e.g., a tibble)}
+\item{data}{needs to be a data frame (for e.g., a tibble)}
 
-\item{`x`}{This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values}
+\item{x}{This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values}
 
-\item{`y`}{This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values}
+\item{y}{This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values}
 }
 \value{
 This function returns summary tables for numeric variables, a scatterplot and adjusted R squared value

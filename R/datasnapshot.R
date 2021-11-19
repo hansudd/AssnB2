@@ -10,9 +10,9 @@
 #' that allows the user to get a quick snapshot of the data and in particular their linear relationship
 #' (if any).
 #'
-#' @param `data` needs to be a data frame (for e.g., a tibble)
-#' @param `x` This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
-#' @param `y` This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
+#' @param data needs to be a data frame (for e.g., a tibble)
+#' @param x This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
+#' @param y This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values
 #'
 #' @return This function returns summary tables for numeric variables, a scatterplot and adjusted R squared value
 #'
