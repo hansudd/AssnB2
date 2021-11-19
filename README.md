@@ -63,6 +63,10 @@ data_snapshot(mtcars, hp, mpg)
     #> [[4]]
     #> [1] 0.5891853
 
+Hence, from this usage example, one can see that the `data_snapshot`
+function returns a scatterplot and the adjusted r squared value when fed
+two numeric variables.
+
 This package is helpful if you frequently work on datasets with two
 numeric variables, and you want to quickly determine if there is a
 linear relationship between the variables.
