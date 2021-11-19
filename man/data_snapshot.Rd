@@ -7,7 +7,7 @@
 data_snapshot(data, x, y)
 }
 \arguments{
-\item{data}{needs to be a data frame (for e.g., a tibble)}
+\item{`data`}{needs to be a data frame (for e.g., a tibble)}
 
 \item{`x`}{This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values}
 
