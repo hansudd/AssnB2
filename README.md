@@ -38,14 +38,16 @@ And the development version from [GitHub](https://github.com/) with:
 devtools::install_github("hansudd/AssnB2", ref = "0.1.0")
 ```
 
-## Example
+## Examples
 
-This is a basic example which shows you how to quickly visualize and
-assess the relationship between two numeric variables:
+**Example 1** This is an example that shows you how to quickly visualize
+and assess the relationship between two numeric variables:
 
 ``` r
+# loading the B2package package
 library(B2package)
-## basic example code
+
+## example 1 of the data_snapshot function 
 data_snapshot(mtcars, hp, mpg)
 #> [[1]]
 #>   max min     mean median
@@ -64,7 +66,39 @@ data_snapshot(mtcars, hp, mpg)
     #> [[4]]
     #> [1] "Adjusted R-square is 58.92 %"
 
-Hence, from this usage example, one can see that the `data_snapshot`
+Example 1 shows the linear relationship between two numeric variables
+from the `mtcars` dataset, hp vs mpg. We observe an adjusted r-squared
+value of 58.92 %. Example 2 will feature an example where there is a
+stronger linear relationship between the two variables.
+
+**Example 2** This is another example that shows you how to quickly
+visualize and assess the relationship between two numeric variables:
+
+``` r
+# example 2 of the data_snapshot function
+data_snapshot(mtcars, mpg, wt)
+#> [[1]]
+#>    max  min     mean median
+#> 1 33.9 10.4 20.09062   19.2
+#> 
+#> [[2]]
+#>     max   min    mean median
+#> 1 5.424 1.513 3.21725  3.325
+#> 
+#> [[3]]
+```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+
+    #> 
+    #> [[4]]
+    #> [1] "Adjusted R-square is 74.46 %"
+
+Example 2 shows the linear relationship between the variables mpg and wt
+from the `mtcars` dataset. Here, we report a higher adjusted r-squared
+value of %.
+
+Hence, from these two usage examples, we see that the `data_snapshot`
 function returns a scatterplot and the adjusted r squared value when fed
 two numeric variables.
 
