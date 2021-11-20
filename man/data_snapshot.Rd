@@ -14,14 +14,14 @@ data_snapshot(data, x, y)
 \item{y}{This input is a numeric variable from a tibble or dataframe, for e.g. column with numeric values}
 }
 \value{
-This function returns summary tables for numeric variables, a scatterplot and adjusted R squared value
+This function returns summary statistics tables for numeric variables, a scatterplot and adjusted R squared value
 }
 \description{
 Function provides snapshot of the linear relationship between two numeric variables, as well as some
 summary statistics for numeric variables.
 }
 \details{
-When given two numeric variables, x and y, this function produces summary statistics and a plot
+When given two numeric variables, x and y, this function produces summary statistics (max, min, median and mean) and a plot
 that allows the user to get a quick snapshot of the data and in particular their linear relationship
 (if any). Generally, the adjusted r squared value, a value between 0 and 1 (displayed as a percentage), represents the proportion of variance
 observed for a dependent variable explained by the independent variable in a linear regression model.
