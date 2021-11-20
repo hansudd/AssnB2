@@ -17,9 +17,10 @@ provides a data snapshot of two numeric variables. It contains a
 function which returns summary statistics for the numeric variables, as
 well as a scatterplot and the adjusted R squared value to provide a
 sense of the linear relationship between the variables (if any).
-Generally, the adjusted r squared value, a value between 0 and 1,
-represents the proportion of variance observed for a dependent variable
-explained by the independent variable in a linear regression model.
+Generally, the adjusted r squared value, a value between 0 and 1
+(displayed as a percentage), represents the proportion of variance
+observed for a dependent variable explained by the independent variable
+in a linear regression model.
 
 ## Installation
 
@@ -61,7 +62,7 @@ data_snapshot(mtcars, hp, mpg)
 
     #> 
     #> [[4]]
-    #> [1] 0.5891853
+    #> [1] "Adjusted R-square is 58.92 %"
 
 Hence, from this usage example, one can see that the `data_snapshot`
 function returns a scatterplot and the adjusted r squared value when fed

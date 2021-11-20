@@ -10,7 +10,7 @@ test_that("Function returns list of objects", {
     expect_is(foobar[[1]], "tbl_df")
     expect_is(foobar[[2]], "tbl_df")
     expect_is(foobar[[3]], "ggplot")
-    expect_is(foobar[[4]], "numeric")
+    expect_is(foobar[[4]], "character")
   })
 
  test_that("The plot uses the correct data", {
@@ -27,7 +27,7 @@ test_that("Function returns list of objects", {
 
  test_that("check that regression output is correct", {
    numbers_check <- data_snapshot(gapminder::gapminder, lifeExp, gdpPercap)
-   expect_equal(numbers_check[[4]], 0.3403256, tolerance = 1e-4)
+   expect_identical(numbers_check[[4]], "Adjusted R-square is 34.03 %")
 })
 
  test_that("error when inputs not numeric variables", {
