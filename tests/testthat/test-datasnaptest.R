@@ -2,7 +2,7 @@ library(gapminder)
 
 test_that("Function returns list of objects", {
   foo <- data_snapshot(gapminder::gapminder, x = lifeExp, y = gdpPercap)
-  expect_is(foo, "list")
+  expect_type(foo, "list")
 })
 
  test_that("Objects returned by function are Correct", {
