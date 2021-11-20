@@ -1,5 +1,5 @@
 Package: B2package
-Title: Getting a snapshot of numeric variables
+Title: Getting a snapshot of two numeric variables
 Version: 0.1.0
 Authors@R: 
     person(given = "Hanwei",
@@ -8,8 +8,8 @@ Authors@R:
            email = "hsudderuddin@bccfe.ca",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This package provides a data snapshot of two numeric variables. 
-    It contains a function, data_snapshot(), which returns summary statistics for the numeric variables, 
-    as well as a scatterplot and the adjusted R squared value to provide a sense of the linear relationship between 
+    It contains a function, data_snapshot(), which returns summary statistics for the numeric variables (max, min, mean, median), 
+    as well as a scatterplot and the adjusted R squared value (as a percentage) to provide a sense of the linear relationship between 
     two numeric variables from a given dataset.
 License: MIT + file LICENSE
 Encoding: UTF-8
