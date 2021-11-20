@@ -52,6 +52,8 @@ visualize and assess the relationship between two numeric variables:
 # loading the B2package package
 library(B2package)
 
+# we will use two numeric variables from the mtcars dataset, a well known dataset that comes with CRAN
+
 ## example 1 of the data_snapshot function 
 data_snapshot(mtcars, hp, mpg)
 #> [[1]]
@@ -80,6 +82,8 @@ stronger linear relationship between the two variables.
 visualize and assess the relationship between two numeric variables:
 
 ``` r
+# we will use the mtcars dataset, but this time change the mpg variable to the wt variable
+
 # example 2 of the data_snapshot function
 data_snapshot(mtcars, mpg, wt)
 #> [[1]]

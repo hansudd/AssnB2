@@ -47,6 +47,8 @@ __Example 1:__ This is an example that shows you how to quickly visualize and as
 # loading the B2package package
 library(B2package)
 
+# we will use two numeric variables from the mtcars dataset, a well known dataset that comes with CRAN
+
 ## example 1 of the data_snapshot function 
 data_snapshot(mtcars, hp, mpg)
 
@@ -58,6 +60,9 @@ Example 1 shows the linear relationship between two numeric variables from the `
 
 __Example 2:__ This is another example that shows you how to quickly visualize and assess the relationship between two numeric variables:
 ```{r}
+
+# we will use the mtcars dataset, but this time change the mpg variable to the wt variable
+
 # example 2 of the data_snapshot function
 data_snapshot(mtcars, mpg, wt)
 ```
