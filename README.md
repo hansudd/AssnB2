@@ -8,7 +8,7 @@
 
 ## Overview
 
-This package was created for Assignment B2 as part of STAT545B in the
+The `B2package` was created for Assignment B2 as part of STAT545B in the
 fall of 2021. (more information about the assignment for making an R
 package and instructions for putting the package together may be found
 here: [link](https://stat545.stat.ubc.ca/assignments/assignment-b2/))
@@ -24,8 +24,9 @@ variables (if any). Generally, the adjusted r squared value, a value
 between 0 and 1 (returned as a percentage by the function), represents
 the proportion of variance observed for a dependent variable explained
 by the independent variable in a linear regression model. The
-`data_snapshot()` function therefore allows users to quickly get a sense
-of the relationship between two numeric variables in a given dataset.
+`data_snapshot()` function therefore allows users of the `B2package` to
+quickly get a sense of the relationship between two numeric variables in
+a given dataset.
 
 ## Installation
 
@@ -105,11 +106,16 @@ data_snapshot(mtcars, mpg, wt)
 
 Example 2 shows the linear relationship between the variables mpg and wt
 from the `mtcars` dataset. Here, we report a higher adjusted r-squared
-value of 74.46 %.
+value of 74.46 %. Our function therefore suggests a stronger linear
+relationship exists between these two numeric variables, in contrast to
+the variables used in Example 1.
+
+## Summary
 
 Hence, from these two usage examples, we see that the `data_snapshot`
-function returns summary statistics, a scatterplot and the adjusted r
-squared value when fed two numeric variables.
+function returns summary statistics (two tibbles containing the min,
+max, mean and median for each numeric variable), a scatterplot and the
+adjusted r squared value when fed two numeric variables.
 
 This package is helpful if you frequently work on datasets with two
 numeric variables, and you want to quickly determine if there is a
