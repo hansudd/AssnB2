@@ -108,8 +108,8 @@ from the `mtcars` dataset. Here, we report a higher adjusted r-squared
 value of 74.46 %.
 
 Hence, from these two usage examples, we see that the `data_snapshot`
-function returns a scatterplot and the adjusted r squared value when fed
-two numeric variables.
+function returns summary statistics, a scatterplot and the adjusted r
+squared value when fed two numeric variables.
 
 This package is helpful if you frequently work on datasets with two
 numeric variables, and you want to quickly determine if there is a
