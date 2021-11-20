@@ -42,7 +42,7 @@ devtools::install_github("hansudd/AssnB2", ref = "0.1.0")
 ## Examples
 
 
-__Example 1__ This is an example that shows you how to quickly visualize and assess the relationship between two numeric variables:
+__Example 1:__ This is an example that shows you how to quickly visualize and assess the relationship between two numeric variables:
 ```{r example}
 # loading the B2package package
 library(B2package)
@@ -56,13 +56,13 @@ data_snapshot(mtcars, hp, mpg)
 
 Example 1 shows the linear relationship between two numeric variables from the `mtcars` dataset, hp vs mpg. We observe an adjusted r-squared value of 58.92 %. Example 2 will feature an example where there is a stronger linear relationship between the two variables.
 
-__Example 2__ This is another example that shows you how to quickly visualize and assess the relationship between two numeric variables:
+__Example 2:__ This is another example that shows you how to quickly visualize and assess the relationship between two numeric variables:
 ```{r}
 # example 2 of the data_snapshot function
 data_snapshot(mtcars, mpg, wt)
 ```
 
-Example 2 shows the linear relationship between the variables mpg and wt from the `mtcars` dataset. Here, we report a higher adjusted r-squared value of %.
+Example 2 shows the linear relationship between the variables mpg and wt from the `mtcars` dataset. Here, we report a higher adjusted r-squared value of 74.46 %.
 
 Hence, from these two usage examples, we see that the `data_snapshot` function returns a scatterplot and the adjusted r squared value when fed two numeric variables.
 
