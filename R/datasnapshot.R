@@ -48,14 +48,14 @@ data_snapshot <- function(data, x, y) {
 
 # generates a summary table (tibble) for x with 4 columns: max, min, mean, median
   summary_for_x <- data %>%
-    summarise(max = max(x, na.rm = TRUE),
+    dplyr::summarise(max = max(x, na.rm = TRUE),
               min = min(x, na.rm = TRUE),
               mean = mean(x, na.rm = TRUE),
               median = stats::median(x, na.rm = TRUE))
 
 # generates a summary table (tibble) for y with 4 columns: max, min, mean, median
   summary_for_y <- data %>%
-    summarise(max = max(y, na.rm = TRUE),
+    dplyr::summarise(max = max(y, na.rm = TRUE),
               min = min(y, na.rm = TRUE),
               mean = mean(y, na.rm = TRUE),
               median = stats::median(y, na.rm = TRUE))
