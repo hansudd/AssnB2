@@ -127,3 +127,6 @@ adjusted r squared value when fed two numeric variables.
 This package is helpful if you frequently work on datasets with two
 numeric variables, and you want to quickly determine if there is a
 linear relationship between the variables.
+
+This package and the documents in this repo were created and authored by
+Hanwei Sudderuddin.
