@@ -17,8 +17,8 @@ data_snapshot(data, x, y)
 This function returns summary statistics tables for numeric variables, a scatterplot and adjusted R squared value
 }
 \description{
-Function provides snapshot of the linear relationship between two numeric variables, as well as some
-summary statistics for numeric variables.
+Function provides snapshot of the linear relationship between two numeric variables (scatterplot and adjusted r value), as well as some
+summary statistics for the two numeric variables.
 }
 \details{
 When given two numeric variables, x and y, this function produces summary statistics (max, min, median and mean) and a plot
