@@ -48,7 +48,7 @@ And the development version from [GitHub](https://github.com/) with:
 devtools::install_github("hansudd/AssnB2", ref = "0.1.0")
 ```
 
-## Examples
+## Examples (usage demonstration)
 
 **Example 1:** This is an example that shows you how to quickly
 visualize and assess the relationship between two numeric variables:
@@ -78,10 +78,13 @@ data_snapshot(mtcars, hp, mpg)
     #> [[4]]
     #> [1] "Adjusted R-square is 58.92 %"
 
-Example 1 shows the linear relationship between two numeric variables
-from the `mtcars` dataset, hp vs mpg. We observe an adjusted r-squared
-value of 58.92 %. Example 2 will feature an example where there is a
-stronger linear relationship between the two variables.
+Example 1 shows how we can use `data_snapshot()` to quickly explore the
+linear relationship between two numeric variables from the `mtcars`
+dataset, hp vs mpg. We observe an adjusted r-squared value of 58.92 %.
+We also see that two tibbles with some summary statistics for our
+numeric variables of interest are returned by the function. Example 2
+will feature a usage demonstration where there is a stronger linear
+relationship between the two variables.
 
 **Example 2:** This is another example that shows you how to quickly
 visualize and assess the relationship between two numeric variables:
