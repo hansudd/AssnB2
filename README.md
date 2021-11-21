@@ -8,6 +8,10 @@
 
 ## Overview
 
+The `B2package` allows users, via the `data_snapshot()` function, to
+quickly assess summary statistics for and the relationship between two
+numeric variables from a given dataset.
+
 The `B2package` was created for Assignment B2 as part of STAT545B in the
 fall of 2021. (more information about the assignment for making an R
 package and instructions for putting the package together may be found
