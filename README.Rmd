@@ -63,7 +63,7 @@ Example 1 shows how we can use `data_snapshot()` to quickly explore the linear r
 __Example 2:__ This is another example that shows you how to quickly visualize and assess the relationship between two numeric variables:
 ```{r}
 
-# we will use the mtcars dataset, but this time change the mpg variable to the wt variable
+# we will use the mtcars dataset, but this time change the hp variable to the wt variable
 
 # example 2 of the data_snapshot function
 data_snapshot(mtcars, mpg, wt)

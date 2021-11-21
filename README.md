@@ -90,7 +90,7 @@ relationship between the two variables.
 visualize and assess the relationship between two numeric variables:
 
 ``` r
-# we will use the mtcars dataset, but this time change the mpg variable to the wt variable
+# we will use the mtcars dataset, but this time change the hp variable to the wt variable
 
 # example 2 of the data_snapshot function
 data_snapshot(mtcars, mpg, wt)
