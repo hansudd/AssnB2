@@ -30,7 +30,7 @@ the proportion of variance observed for a dependent variable explained
 by the independent variable in a linear regression model. The
 `data_snapshot()` function therefore allows users of the `B2package` to
 quickly get a sense of the relationship between two numeric variables in
-a given dataset.
+a given dataset (for example, data from a tibble).
 
 ## Installation
 
